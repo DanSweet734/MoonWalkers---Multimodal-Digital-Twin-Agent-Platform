@@ -163,17 +163,17 @@ Each pipeline handles a pair of inputs and has one owner. The models named in ea
 
 ```mermaid
 flowchart TB
-  subgraph PA["Pipeline A - Nameplate + Brochure (Ava Harken)"]
-    A1["Nameplate photo"] --> A2["OCR: read model / serial #"]
-    A3["Brochure / datasheet PDF"] --> A4["Document parsing: specs, part numbers"]
-    A2 --> A5["Matched product identity"]
-    A4 --> A5
+  subgraph PA["Pipeline A - Video + Photos (Daniel Sweet)"]
+    A1["Facility walkthrough video"] --> A2["Segment + track objects"]
+    A3["Machine / component photos"] --> A2
+    A2 --> A4["Multi-view 3D reconstruction"]
+    A4 --> A5["Posed 3D geometry"]
   end
-  subgraph PB["Pipeline B - Video + Photos (Daniel Sweet)"]
-    B1["Facility walkthrough video"] --> B2["Segment + track objects"]
-    B3["Machine / component photos"] --> B2
-    B2 --> B4["Multi-view 3D reconstruction"]
-    B4 --> B5["Posed 3D geometry"]
+  subgraph PB["Pipeline B - Nameplate + Brochure (Ava Harken)"]
+    B1["Nameplate photo"] --> B2["OCR: read model / serial #"]
+    B3["Brochure / datasheet PDF"] --> B4["Document parsing: specs, part numbers"]
+    B2 --> B5["Matched product identity"]
+    B4 --> B5
   end
   subgraph PC["Pipeline C - Layout + Schematic (Shankar Kiran Ragavender)"]
     C1["Facility layout drawing"] --> C2["Layout parsing: spatial placement"]
