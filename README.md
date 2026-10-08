@@ -16,7 +16,7 @@ A capstone contribution to the **MoonWalkers collaborative platform** at CSUN's 
 |---|---|
 | Background research (digital twins, image-to-3D models, agents, prior MoonWalkers work) | Done |
 | Scope and goals | Defined (see [What it does](#what-it-does)) |
-| Software Requirements Specification (SRS) | Complete as of October 10th, 2026, written section by section by the team |
+| Software Requirements Specification (SRS) | Complete as of October 8th, 2026, written section by section by the team and awaiting stakeholder approval |
 | Technology stack | **Awaiting Approval.** Options researched; see [Technology stack](#technology-stack-candidates) |
 | Shared platform (dashboard, backend, knowledge base) | Not started |
 | Input pipelines | Not started; all four have an owner (see [The four pipelines](#the-four-pipelines)) |
