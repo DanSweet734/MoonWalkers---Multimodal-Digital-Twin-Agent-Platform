@@ -340,4 +340,4 @@ California State University, Northridge (CSUN), Computer Science capstone.
 
 ## License
 
-No license has been chosen yet for thie repository. Until one is added the default copyright applies, meaning no one else may reproduce, distribute, or create derivative works from the code.
+No license has been chosen yet for this repository. Until one is added the default copyright applies, meaning no one else may reproduce, distribute, or create derivative works from the code.
